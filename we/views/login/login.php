@@ -233,6 +233,7 @@
                document.getElementById('check_pwd').innerHTML = "密码不能为空";
                return false
            }
+           //alert(pwd)
            if(name && pwd){
                var ajax = new XMLHttpRequest();
                ajax.onreadystatechange    =   function(){
